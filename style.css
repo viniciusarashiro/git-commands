@@ -50,3 +50,17 @@ header {
   background-color: aqua;
   display: block;
 }
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+}
